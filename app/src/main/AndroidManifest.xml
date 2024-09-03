@@ -29,6 +29,7 @@
         </activity>
         <service
             android:name="com.alpharays.myservicesdemoapp.foregroundservice.MyForegroundService"
+            android:foregroundServiceType="shortService"
             android:exported="false" />
     </application>
 
